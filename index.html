@@ -5,13 +5,21 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <!-- Encabezado y botón de agregar inversión -->
   <div class="container">
     <h1>Compound Interest Calculator</h1>
     <button id="agregarInversion">Agregar inversión</button>
-    <div id="inversiones">
-    </div>
+    <div id="inversiones"></div>
+  </div>
+  
+  <!-- Botón de calcular y mostrar resultados -->
+  <div class="container">
     <button id="calculateBtn">Calcular</button>
     <div id="results"></div>
+  </div>
+  
+  <!-- Sección Mostrar cálculos anteriores -->
+  <div class="container">
     <button id="verCalculosAnteriores">Ver cálculos anteriores</button>
     <div id="resultadosAnteriores">
       <h2>Resultados Anteriores</h2>
@@ -24,12 +32,11 @@
             <th>Impuestos pagados</th>
           </tr>
         </thead>
-        <tbody id="tablaResultados">
-        </tbody>
+        <tbody id="tablaResultados"></tbody>
       </table>
     </div>
   </div>
-
+  
   <script src="main.js"></script>
 </body>
 </html>
